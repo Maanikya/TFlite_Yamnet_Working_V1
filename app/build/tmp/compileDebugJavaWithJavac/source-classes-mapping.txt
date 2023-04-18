@@ -1,0 +1,6 @@
+org/tensorflow/lite/examples/soundclassifier/databinding/ActivityMainBinding.java
+ org.tensorflow.lite.examples.soundclassifier.databinding.ActivityMainBinding
+org/tensorflow/lite/examples/soundclassifier/databinding/ItemProbabilityBinding.java
+ org.tensorflow.lite.examples.soundclassifier.databinding.ItemProbabilityBinding
+org/tensorflow/lite/examples/soundclassifier/BuildConfig.java
+ org.tensorflow.lite.examples.soundclassifier.BuildConfig

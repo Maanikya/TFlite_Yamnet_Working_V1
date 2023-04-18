@@ -1,0 +1,7 @@
+#Sun Apr 16 18:40:07 IST 2023
+base.1=D\:\\My Personal\\8CS2\\Major Project\\Android App\\TFlite_Yamnet_Working\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\classes.dex
+path.1=classes.dex
+base.0=D\:\\My Personal\\8CS2\\Major Project\\Android App\\TFlite_Yamnet_Working\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex
