@@ -191,7 +191,7 @@ class MainActivity : AppCompatActivity() {
   companion object {
     const val REQUEST_RECORD_AUDIO = 1337
     private const val TAG = "AudioDemo"
-    private const val MODEL_FILE = "birds_model_v3_6-Species.tflite"
+    private const val MODEL_FILE = "birds_model_v4_6-Species.tflite"
     private const val MINIMUM_DISPLAY_THRESHOLD: Float = 0.6f
   }
 }
