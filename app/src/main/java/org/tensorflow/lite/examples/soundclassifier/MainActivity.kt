@@ -108,7 +108,7 @@ class MainActivity : AppCompatActivity() {
         val output = classifier.classify(audioTensor)
 
         // Filter out results above a certain threshold, and sort them descendingly
-        val filteredModelOutput = output[1].categories.filter {
+        val filteredModelOutput = output[0].categories.filter {
           it.score > MINIMUM_DISPLAY_THRESHOLD
         }.sortedBy {
           -it.score
@@ -191,7 +191,7 @@ class MainActivity : AppCompatActivity() {
   companion object {
     const val REQUEST_RECORD_AUDIO = 1337
     private const val TAG = "AudioDemo"
-    private const val MODEL_FILE = "birds_model_v2.tflite"
+    private const val MODEL_FILE = "birds_model_v3_6-Species.tflite"
     private const val MINIMUM_DISPLAY_THRESHOLD: Float = 0.6f
   }
 }
